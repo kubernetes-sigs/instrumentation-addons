@@ -1,0 +1,11 @@
+aliases:
+  sig-instrumentation-approvers:
+    - ehashman
+    - brancz
+    - logicalhan
+    - dashpole
+  sig-instrumentation-reviewers:
+    - ehashman
+    - brancz
+    - logicalhan
+    - dashpole
