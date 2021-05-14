@@ -5,6 +5,3 @@ approvers:
 - x13n
 reviewers:
 - sig-instrumentation-reviewers
-labels:
-- area/provider/gcp
-- sig/instrumentation
