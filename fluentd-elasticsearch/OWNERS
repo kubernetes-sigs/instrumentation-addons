@@ -1,10 +1,10 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
 approvers:
+- sig-instrumentation-approvers
 - coffeepac
 - monotek
-- sig-instrumentation-approvers
 reviewers:
 - sig-instrumentation-reviewers
-labels:
-- sig/instrumentation
+- coffeepac
+- monotek
