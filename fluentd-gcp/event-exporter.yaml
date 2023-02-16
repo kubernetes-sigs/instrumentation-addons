@@ -51,13 +51,13 @@ spec:
       serviceAccountName: event-exporter-sa
       containers:
       - name: event-exporter
-        image: k8s.gcr.io/event-exporter:v0.3.1
+        image: registry.k8s.io/event-exporter:v0.3.1
         command:
         - /event-exporter
         - -sink-opts=-stackdriver-resource-model={{ exporter_sd_resource_model }} -endpoint={{ exporter_sd_endpoint }}
       # BEGIN_PROMETHEUS_TO_SD
       - name: prometheus-to-sd-exporter
-        image: k8s.gcr.io/prometheus-to-sd:v0.7.2
+        image: registry.k8s.io/prometheus-to-sd:v0.7.2
         command:
           - /monitor
           - --stackdriver-prefix={{ prometheus_to_sd_prefix }}/addons
